@@ -1,0 +1,19 @@
+/* link no visitado */
+a:link {
+  color: red;
+}
+
+/* link visitado */
+a:visited {
+  color: green;
+}
+
+/* mouse sobre link */
+a:hover {
+  color: hotpink;
+}
+
+/* link seleccionado */
+a:active {
+  color: blue;
+}

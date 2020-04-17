@@ -1,0 +1,14 @@
+#primer_parrafo:hover{
+	color: red; 
+	display:block;
+}
+
+#segundo_parrafo:hover{ 
+	color: orange; 
+	display:block;
+}
+
+#tercer_parrafo:hover{ 
+	color: green; 
+	display:block;
+}
