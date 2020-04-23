@@ -1,0 +1,12 @@
+/* Dispositivos muy pequeños (teléfonos de hasta 768px de anchura) */
+/* No se define ninguna media query porque este es el estilo por
+   defecto utilizado por Bootstrap 3 */
+
+/* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: @screen-lg-min) { ... }
