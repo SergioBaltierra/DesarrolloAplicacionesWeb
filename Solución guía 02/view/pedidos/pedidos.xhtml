@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+    <head>
+        <title>La Vaca Flaca SpA.</title>
+        <meta name="description" content="La Vaca Flaca SpA." />
+        <meta name="keywords" content="La Vaca Flaca SpA" />
+        <link rel="index" href="./" title="Inicio" />
+
+        <link rel="stylesheet" type="text/css" href="./../assets/css/estilos.css"/>
+        <link href="./../assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
+    </head>
+
+    <body>
+
+        <div id="contenedor">
+
+            <div id="cabecera">
+                <h1 id="logo"><a href="./" title="La Vaca Flaca SpA.">La Vaca Flaca SpA.</a></h1>
+                <div id="buscador">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend>Buscador</legend>
+                            <input type="text" name="busqueda" size="30"/>
+                            <input type="submit" name="botonbuscar" value="Buscar"/>
+                        </fieldset>
+                    </form>
+                </div> 
+                <div class="clear"></div>
+            </div> 
+
+            <div id="menu">
+                <ul>
+                    <li><a href="./../index.xhtml">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li class="seleccionado"><a href="./pedidos.xhtml">Pedidos</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+            <div id="contenido" class="container">
+                <div class="row">
+                    <div class="title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Haga su pedido</h2>
+                        <h4 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Solicite su pedide completando el siguiente formulario:</h4>
+                    </div>
+                </div>        
+            </div>
+
+            <div id="contenido" class="container">
+
+                <form class=".form-group">
+
+                    <div class="formulario-pedido">
+                        <label for="Nombre">Nombre Completo:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombre completo"/>
+                    </div>
+                    <div class="formulario-pedido">
+                        <label for="RUN">RUN:</label>
+                        <input type="text" class="form-control" id="run" placeholder="Ejemplo: 00.000.000-0"/>
+                    </div>
+                    <div class="formulario-pedido">
+                        <label for="Direccion">Correo electrónico:</label>
+                        <input type="text" class="form-control" id="direccion" placeholder="Ingrese correo electrónico"/>
+                    </div>
+                    <div class="formulario-pedido">
+                        <label for="Direccion">Dirección:</label>
+                        <input type="text" class="form-control" id="direccion" placeholder="Ingrese dirección"/>
+                    </div>
+
+                    <div class="table-responsive formulario-pedido">
+                        <table class="table table-bordered table-striped table-highlight">
+                            <thead id="columnas-pedidos">
+                                <th>Cantidad</th>
+                                <th>Detalle</th>
+                                <th>Valor unitario</th>
+                                <th>Valor total</th>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><input type="numeric" class="form-control" value="1"/></td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Yogur light</option>
+                                            <option>Yogur extra light</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="numeric" class="form-control" value="$10" disabled="disabled"/></td>
+                                  
+                                    <td><input type="numeric" class="form-control" value="$100" disabled="disabled"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="numeric" class="form-control" value="1"/></td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Yogur light</option>
+                                            <option>Yogur extra light</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="numeric" class="form-control" value="$10" disabled="disabled"/></td>
+                                  
+                                    <td><input type="numeric" class="form-control" value="$100" disabled="disabled"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="numeric" class="form-control" value="1"/></td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Yogur light</option>
+                                            <option>Yogur extra light</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="numeric" class="form-control" value="$10" disabled="disabled"/></td>
+                                  
+                                    <td><input type="numeric" class="form-control" value="$100" disabled="disabled"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="numeric" class="form-control" value="1"/></td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Yogur light</option>
+                                            <option>Yogur extra light</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="numeric" class="form-control" value="$10" disabled="disabled"/></td>
+                                  
+                                    <td><input type="numeric" class="form-control" value="$100" disabled="disabled"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="numeric" class="form-control" value="1"/></td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Yogur light</option>
+                                            <option>Yogur extra light</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="numeric" class="form-control" value="$10" disabled="disabled"/></td>
+                                  
+                                    <td><input type="numeric" class="form-control" value="$100" disabled="disabled"/></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3"><p class="text-right" style="padding-top: 2%">TOTAL</p></td>
+                                    <td>
+                                        <input type="numeric" class="form-control" value="$100" disabled="disabled"/>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <div class="formulario-pedido" style="left:20%;">
+                        
+                        <div class="col-lg-8 col-sm-8"></div>
+
+                        <div class="col-lg-2 col-sm-2">
+                            <!-- Botón normal -->
+                            <button type="button" class="btn btn-default">Guardar</button>
+                        </div>
+                        
+                        <div class="col-lg-2 col-sm-2">
+                            <!-- Botón destacado para descubrir fácilmente
+                           el botón principal dentro de un grupo de botones -->
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+ 
+                <div class="clear"></div>
+            </div> 
+
+            <div id="pie">
+                <p id="copyright">&copy; 2020 La Vaca Flaca SpA.</p>
+            </div> 
+        </div> 
+    </body>
+</html>
