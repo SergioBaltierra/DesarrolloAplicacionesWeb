@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-jun-2020, 20:27:42
+    Author     : sergiobaltierravalenzuela
+*/
+
+.formulario-login{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#login {
+  width: 760px;
+  margin: 0 5px;
+  background: #FFF;
+}
+
+/*#login #principal {
+  float: left;
+  width: 530px;
+  margin-top: 15px;
+  padding:0 0 0 20px;
+  background: #FFF;
+}
+
+#login #secundario {
+  float: left;
+  width: 200px;
+  margin: 15px 0 0 0;
+  padding: 0;
+  background: #CEDBF9 url("./../assets/imagenes/fondo_columna.gif") no-repeat;
+}*/
+
+/*.formulario-login{
+  padding-top: 15px;
+  padding-bottom:15px
+}*/
+
+#afterlogin {
+  width: 760px;
+  margin: 0 5px;
+  background: #FFF;
+}
+
+/*#afterlogin #principal {
+  float: left;
+  width: 530px;
+  margin-top: 15px;
+  padding:0 0 0 20px;
+  background: #FFF;
+}
+
+#afterlogin #secundario {
+  float: left;
+  width: 200px;
+  margin: 15px 0 0 0;
+  padding: 0;
+  background: #CEDBF9 url("./../assets/imagenes/fondo_columna.gif") no-repeat;
+}*/

@@ -1,0 +1,22 @@
+/*CSS de estilos para formulario pedidos.*/
+.botonesFila{
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#agregarFila {
+  background-color: #008CBA; /* Blue */
+  border-radius: 12px;
+} 
+
+#eliminarFila {
+  background-color: #f44336; /* Red */ 
+  border-radius: 12px;
+} 

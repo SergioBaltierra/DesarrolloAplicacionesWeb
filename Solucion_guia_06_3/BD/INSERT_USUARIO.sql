@@ -1,0 +1,2 @@
+INSERT INTO `PE2_DAW`.`USUARIO` (`ID`, `USER`, `PASS`, `LAST_LOGIN`) 
+VALUES (1, 'sergio', 'sergio2020', '2020-07-02 16:15:00');
